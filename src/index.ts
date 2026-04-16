@@ -1,16 +1,14 @@
 /**
- * LLM Chat Application Template
+ * OpenAgencyAI.dev Chat Application
  *
- * A simple chat application using Cloudflare Workers AI.
- * This template demonstrates how to implement an LLM-powered chat interface with
- * streaming responses using Server-Sent Events (SSE).
+ * AI-Powered Agency Assistant.
+ * Provides streaming responses using Server-Sent Events (SSE).
  *
  * @license MIT
  */
 import { Env, ChatMessage } from "./types";
 
-// Model ID for Workers AI model
-// https://developers.cloudflare.com/workers-ai/models/
+// Model ID for AI model
 const MODEL_ID = "@cf/meta/llama-3.1-8b-instruct-fp8";
 
 // Default system prompt
